@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-x: hidden;
+}
+.container {
+	display: grid;
+	width: 99vw;
+	height: auto;
+	grid-template-rows: repeat(4, 25%);
+	grid-template-columns: repeat(4, 25%);
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+img:hover {
+	opacity: 1;
+}
+.img1 {
+	grid-area: 1 / 1 / span 2 / span 1;
+}
+.img2 {
+	grid-area: 2 / 2 / span 2 / span 2;
+}
+.img3 {
+	grid-area: 1 / 2 / span 1 / span 1;
+}
+.img4 {
+	grid-area: 1 / 3 / span 1 / span 1;
+}
+.img5 {
+	grid-area: 3 / 4 / span 1 / span 1;
+}
+.img6 {
+	grid-area: 1 / 4 / span 2 / span 1;
+}
+.img7 {
+	grid-area: 4 / 1 / span 1 / span 2;
+}
+.img8 {
+	grid-area: 3 / 1 / span 1 / span 1;
+}
+.img9 {
+	grid-area: 4 / 3 / span 1 / span 2;
+}
